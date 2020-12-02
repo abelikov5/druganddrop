@@ -1,0 +1,82 @@
+.container {
+    margin: 0 auto;
+    position: relative;
+    max-width: 400px;
+    height: 400px;
+}
+
+#redBall, #greenBall, #yellowBall, #blueBall, #redBall2, #redBall3 {
+    position: absolute;
+    width:  100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#redBall {
+    background-color: red;
+    top: 20%;
+    left: 20%;
+    z-index: 10;
+}
+#greenBall {
+    background-color: green;
+    top: 20%;
+    right: 20%;
+}
+#yellowBall {
+    background-color: yellow;
+    top: 10%;
+    left: 50%;
+}
+#blueBall {
+    background-color: blue;
+    top:  70%;
+    left: 20%
+}
+#redBall2 {
+    background-color: red;
+    top:  80%;
+    left: 50%;
+}
+#redBall3 {
+    background-color: red;
+    top: 70%;
+    right: 20%;
+}
+.container_sq {
+    position: absolute;
+    z-index: -1;
+    /* border: 1px blue solid; */
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    top: 0;
+    left: 320px;
+}
+
+#sq_rd, #sq_gr, #sq_yl, #sq_bl {
+    position: absolute;
+    width:  90px;
+    height: 90px;
+    margin: 5px;
+    padding: 10px;
+}
+#sq_rd {
+    border: red solid 1px;
+    left: 0;
+}
+#sq_gr {
+    border: green solid 1px;
+    right: 0;
+}
+#sq_yl {
+    border: yellow solid 1px;
+    right: 0;
+    bottom: 0;
+}
+#sq_bl {
+    border: blue solid 1px;
+    left: 0;
+    bottom: 0;
+}
+
